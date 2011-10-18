@@ -775,7 +775,7 @@ class Router {
 			}
 		} else {
 			if (
-				(strpos($url, '://') !== false ||
+				(strpos($url, '://') ||
 				(strpos($url, 'javascript:') === 0) ||
 				(strpos($url, 'mailto:') === 0)) ||
 				(!strncmp($url, '#', 1))

@@ -2420,9 +2420,6 @@ class RouterTest extends CakeTestCase {
 
 		$url = 'svn+ssh://example.com';
 		$this->assertEqual($url, Router::url($url));
-
-		$url = '://example.com';
-		$this->assertEqual($url, Router::url($url));
 	}
 
 /**

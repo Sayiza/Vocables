@@ -171,7 +171,7 @@ class Controller extends Object {
 /**
  * Instance of ComponentCollection used to handle callbacks.
  *
- * @var ComponentCollection
+ * @var string
  */
 	public $Components = null;
 
